@@ -6,9 +6,9 @@ import re
 import os
 
 # --- CONFIGURATION ---
-MODEL_PATH = r'C:\Users\pipal\OneDrive\Desktop\Nootbook P\ANPR_System\runs\detect\models\anpr_yolov128\weights\best.pt' 
-VIDEO_SOURCE = r"C:\Users\pipal\OneDrive\Desktop\Nootbook P\ANPR_System\video\test\test_video.mp4"
-OUTPUT_DIR = r"C:\Users\pipal\OneDrive\Desktop\Nootbook P\ANPR_System\video\Output"
+MODEL_PATH = r'weights\best.pt' 
+VIDEO_SOURCE = r"test\test_video.mp4"
+OUTPUT_DIR = r"ANPR_System\video\Output"
 OUTPUT_FILENAME = "result_enhanced.mp4"
 
 CONFIDENCE_THRESHOLD = 0.5
