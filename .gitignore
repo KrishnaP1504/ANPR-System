@@ -1,0 +1,31 @@
+# --- Python & Environment ---
+__pycache__/
+*.pyc
+venv/
+.env
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Dataset & Heavy Files ---
+# Ignore the dataset folder (too large for git)
+dataset/
+
+# --- YOLO / Training Outputs ---
+# These folders contain gigabytes of training data and temp weights
+runs/
+models/
+
+# If you want to commit your specific trained model,
+# you can un-ignore the specific file with ! (Optional):
+# !runs/detect/models/anpr_yolov128/weights/best.pt
+
+# --- Media & Outputs ---
+# Ignore input/output videos to save space
+*.mp4
+*.avi
+video/
+
+# --- VS Code / IDE Settings ---
+.vscode/
+.idea/
